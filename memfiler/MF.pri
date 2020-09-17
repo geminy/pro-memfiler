@@ -1,0 +1,9 @@
+INCLUDEPATH += $$PWD/include
+INCLUDEPATH += $$PWD
+
+DESTDIR_LIB = $$PWD/out/lib
+DESTDIR_BIN = $$PWD/out/bin
+OBJECTS_DIR = $$PWD/out/intermediates
+
+LIBS += -L$$DESTDIR_LIB
+QMAKE_RPATHDIR += $$DESTDIR_LIB
